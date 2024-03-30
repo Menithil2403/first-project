@@ -1,8 +1,9 @@
 body{
-    margin:0;
+    margin: 0;
     padding: 0;
     background-color: black;
-    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .title_h1{
@@ -14,9 +15,8 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .content{
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 200px;
     height: 200px;
     color: rgb(10, 141, 12);
