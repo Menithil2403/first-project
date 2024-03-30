@@ -1,12 +1,23 @@
 body{
     margin:0;
     padding: 0;
-    text-align: center;
     background-color: black;
+    display: flex;
 }
 
 .title_h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 22px;
     color: rgb(10, 141, 12);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    color: rgb(10, 141, 12);
 }
